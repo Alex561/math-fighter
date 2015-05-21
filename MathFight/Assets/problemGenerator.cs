@@ -37,23 +37,23 @@ public class problemGenerator : MonoBehaviour {
 		string q = (n.ToString() + "U");
 		return q;
 	}
-	void checkSolution(string a){
+	int checkSolution(string a,int ap){
 		switch (question) {
 		case "0U":
-			print ('0');
-			break;
+			if (a =="1/2")
+				return ap+=1;
+			else
+				return ap-=1;
 		case "1U":
-			print ('1');
-			break;
+			return ap;
 		case "2U":
-			print ('2');
-			break;
+			return ap;
 		case "3U":
-			print ('3');
-			break;
+			return ap;
 		case "4U":
-			print ('4');
-			break;
+			return ap;
+		default:
+			return ap;
 		}
 	}
 	
@@ -70,7 +70,7 @@ public class problemGenerator : MonoBehaviour {
 		if (p1Turn == false) {
 			turnText.text = "player 2's turn";
 		}
-		countdown = 6.1f;
+		countdown = 10f;
 	}
 
 	// Update is called once per frame
@@ -85,13 +85,15 @@ public class problemGenerator : MonoBehaviour {
 		//player 1 enters answer
 		if (Input.GetKeyDown (KeyCode.Q) && p1Turn) {
 		
-			checkSolution (answer1);//check if right
+			ap1 = checkSolution(answer1,ap1);//check if right
+			print ("ap1: " + ap1.ToString());
 			question = changeProblem ();//make a new question
 			flipTurn();
 		}
 		//player 2 eneters answer
 		if (Input.GetKeyDown (KeyCode.P)&& !p1Turn) {
-			checkSolution(answer2);
+			ap2 = checkSolution(answer2,ap2);
+			print("ap2: " + ap2.ToString());
 			question = changeProblem ();
 			flipTurn ();
 		}
