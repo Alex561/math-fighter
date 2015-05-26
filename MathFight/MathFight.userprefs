@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\problemGenerator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\lessonremover.cs">
     <Files>
-      <File FileName="Assets\problemGenerator.cs" Line="96" Column="16" />
+      <File FileName="Assets\lessonremover.cs" Line="23" Column="125" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
