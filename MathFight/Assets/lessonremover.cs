@@ -13,25 +13,18 @@ public class lessonremover : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown ("return")) {
+		if (Input.GetKeyDown("space"))
+			{
+			Debug.Log ("return");
 			flip=true;
+			Debug.Log ("what the fucks going on");
+			GetComponent<Collider>().attachedRigidbody.useGravity = true;
+			GetComponent<Collider>().attachedRigidbody.isKinematic = false;
 
 		}
 	
 	}
-
-	// this is suppose to make the text mesh fall from the screen when enter is pressed but it wont do that, please help.......
-	void OnTriggerEnter(Collider other)
-	{ 
-		if ((flip == true)) {
-			if(other.tag == "text_on_bag")
-			{
-				Debug.Log ("what the fucks going on");
-				other.attachedRigidbody.useGravity = true;
-				other.attachedRigidbody.isKinematic = false;
-			}
-		}
-	}
+	
 	/*void OnGUI()
 	{
 		if (index < dialogue.Length) {
