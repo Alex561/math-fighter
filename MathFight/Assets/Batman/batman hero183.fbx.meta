@@ -147,7 +147,7 @@ ModelImporter:
     400138: VisualSceneNode9_end 1
     4300000: VisualSceneNode25
     7400000: Armature|Block.001
-    7400002: Block
+    7400002: Armature|Block
     7400004: Armature|Block.002
     7400006: Armature|Punch
     7400008: Armature|Untitled
@@ -186,7 +186,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Block
+      name: Armature|Block
       takeName: Armature|Block
       firstFrame: 0
       lastFrame: 14
