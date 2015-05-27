@@ -4,6 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - problem1
+  - problem2
   - text_on_bag
   layers:
   - Default
