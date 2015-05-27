@@ -4,10 +4,10 @@ using System.Collections;
 public class hp : MonoBehaviour {
 		//get the hp sprites
 		public int health;
-		public Sprite fullHp; 
-		public Sprite twoHP;
-		public Sprite oneHP; 
 	public Sprite zeroHp;
+		public Sprite fullHp; 
+		public Sprite twoHp;
+		public Sprite oneHp;
 		//used to change sprites
 		private SpriteRenderer spriteRendererH; 
 		// Use this for initialization
@@ -23,13 +23,13 @@ public class hp : MonoBehaviour {
 		void Update () {
 			
 			if ( health== 2) {
-				spriteRendererH.sprite= oneHP;//change the sprite to 2 hp
+				spriteRendererH.sprite= twoHp;//change the sprite to 2 hp
 			}
 			else if (health == 1) {
-				spriteRendererH.sprite= twoHP; // chnage the sprite to 1 hp
+				spriteRendererH.sprite= oneHp; // chnage the sprite to 1 hp
 			}
 			else if (health == 0) {
-				spriteRendererH.sprite= twoHP; //moves to game over screen
+				spriteRendererH.sprite= zeroHp; //moves to game over screen
 				
 			}
 			
