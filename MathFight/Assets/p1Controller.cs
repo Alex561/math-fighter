@@ -2,7 +2,6 @@
 using System.Collections;
 
 public class p1Controller : MonoBehaviour {
-
 	public problemGenerator pg;
 	public hp hp2;
 	// Use this for initialization
