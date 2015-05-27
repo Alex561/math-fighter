@@ -47,7 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\fightercontrols.cs" />
+     <Compile Include="Assets\hp.cs" />
      <Compile Include="Assets\lessonremover.cs" />
+     <Compile Include="Assets\p1Controller.cs" />
      <Compile Include="Assets\problemGenerator.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
