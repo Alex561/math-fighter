@@ -40,30 +40,43 @@ public class problemGenerator : MonoBehaviour {
 		return q;
 	}
 	int checkSolution(string a,int ap){
+		Debug.Log ("going to checker to check: " + a);
 		switch (question) {
 		case "0U":
-			if (a =="1/2")
+			if (a =="1/2"){
+				Debug.Log("sin 30 is 1/2!!!!!!!!");
 				return ap+=1;
+			}
 			else
 				return ap-=1;
 		case "1U":
-			if (a == "s3/2")
-				return ap=+1;
+			if (a == "s3/2"){
+				Debug.Log("cos 30 is s3/2!!!!!!!!");
+				return ap+=1;
+			}
 			else 
 				return ap -=1;
 		case "2U":
-			if (a == "1")
-				return ap=+1;
+			if (a == "1"){
+				Debug.Log("tan is 45!!!!!!!!");
+				return ap+=1;
+			}
 			else 
 				return ap -=1;
 		case "3U":
 			if (a == "1/2")
-				return ap=+1;
+			{
+				Debug.Log("cos 60 is 1/2!!!!!!!!");
+				return ap+=1;
+			}
 			else 
 				return ap -=1;
 		case "4U":
 			if (a == "0")
-				return ap=+1;
+			{
+				Debug.Log("cos 90 is 0!!!!!!!!");
+				return ap+=1;
+			}
 			else 
 				return ap -=1;
 		default:
@@ -106,8 +119,9 @@ public class problemGenerator : MonoBehaviour {
 		}
 		//player 1 enters answer
 		if (Input.GetKeyDown (KeyCode.Q) && p1Turn) {
-		
+			Debug.Log("pre solution ap" + ap1.ToString());
 			ap1 = checkSolution(answer1,ap1);//check if right
+			Debug.Log("post solution ap" + ap1.ToString());
 			question = changeProblem ();//make a new question
 			flipTurn();
 		}
