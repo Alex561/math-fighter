@@ -308,8 +308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flip: 0
   name: n/a
-  input_count: 0
-  output_count: 0
+  count: 0
 --- !u!102 &988861794
 TextMesh:
   serializedVersion: 3
@@ -890,8 +889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flip: 0
   name: n/a
-  input_count: 0
-  output_count: 0
+  count: 0
 --- !u!54 &2091233376
 Rigidbody:
   m_ObjectHideFlags: 0
