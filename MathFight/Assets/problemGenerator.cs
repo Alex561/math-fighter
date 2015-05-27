@@ -86,7 +86,15 @@ public class problemGenerator : MonoBehaviour {
 		}
 		countdown = 12f;
 	}
-
+	void apManager()
+	{
+		if (ap1<0)
+			ap1 = 0;
+		Ap1.text = ("ap1: " + ap1.ToString());
+		if (ap2<0)
+			ap2 = 0;
+		Ap2.text = ("ap2: " + ap2.ToString());
+	}
 	// Update is called once per frame
 	void Update () {
 		//countdown
@@ -100,24 +108,16 @@ public class problemGenerator : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Q) && p1Turn) {
 		
 			ap1 = checkSolution(answer1,ap1);//check if right
-			if (ap1<0)
-				ap1 = 0;
-			Ap1.text = ("ap1: " + ap1.ToString());
 			question = changeProblem ();//make a new question
 			flipTurn();
 		}
 		//player 2 eneters answer
 		if (Input.GetKeyDown (KeyCode.P)&& !p1Turn) {
 			ap2 = checkSolution(answer2,ap2);
-			if (ap2<0)
-				ap2 = 0;
-			Ap2.text = ("ap2: " + ap2.ToString());
 			question = changeProblem ();
 			flipTurn ();
+
 		}
-		//add points
-		if (correct) {
-			correct=false;
-		}
+		apManager();
 	}
 }
