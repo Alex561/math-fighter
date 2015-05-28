@@ -24,13 +24,10 @@ public class lessonremover : MonoBehaviour {
 		if (Input.GetKeyDown("space"))
 			{
 			 
-			Debug.Log ("return");
-			Debug.Log ("what the fucks going on");
 			if(input_count==0)
 			{
 			GetComponent<TextMesh>().text = "what is the angle for tan 45?";
 			}
-			Debug.Log("the fucks wrong with you");
 
 			if(input_count==1)
 			{

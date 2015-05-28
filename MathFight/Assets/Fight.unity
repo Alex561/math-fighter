@@ -444,7 +444,12 @@ Prefab:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 1b64de9ababc0e142ae572fcf82075a5, type: 2}
-    m_RemovedComponents: []
+    - target: {fileID: 9500000, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e642823db296b924e9657e4da9e393cd, type: 2}
+    m_RemovedComponents:
+    - {fileID: 11100000, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
   m_IsPrefabParent: 0
 --- !u!1 &944456659
@@ -539,7 +544,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400004, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28.7159996
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -584,6 +589,26 @@ Prefab:
     - target: {fileID: 100004, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
       propertyPath: m_Name
       value: batman hero_P1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e642823db296b924e9657e4da9e393cd, type: 2}
+    - target: {fileID: 13700000, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b64de9ababc0e142ae572fcf82075a5, type: 2}
+    - target: {fileID: 13700000, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4cad5a19c06b7f141beb3b88a69986a6, type: 2}
+    - target: {fileID: 13700000, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: -.453218728
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 1.45212936
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
@@ -924,6 +949,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pg: {fileID: 1510803036}
   hp2: {fileID: 288149926}
+  a: {fileID: 7400006, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
+  b: {fileID: 7400002, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
+  anim: {fileID: 0}
+--- !u!111 &1664603450
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1664603446}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400006, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
+  m_Animations:
+  - {fileID: 7400006, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
+  - {fileID: 7400002, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1916395057
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,6 +5,9 @@ public class p1Controller : MonoBehaviour {
 
 	public problemGenerator pg;
 	public hp hp2;
+	public AnimationClip a;
+	public AnimationClip b;
+	public Animation anim;
 	// Use this for initialization
 	void Start () {
 		pg = GameObject.Find("problems").GetComponent<problemGenerator>();
@@ -20,7 +23,9 @@ public class p1Controller : MonoBehaviour {
 			pg.ap1 -=1;
 			Debug.Log("w");
 			hp2.health -=1;
-			///call punch animation
+			anim = GetComponent<Animation>();
+			anim.AddClip(a, "Punch");
+			anim.Play();
 		}
 		
 	}

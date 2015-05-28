@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ad183cb492f5dbe4586972cf7561234a
+guid: 9266df48b6eca214aae8c597f0ee84b1
 timeCreated: 1432725544
 licenseType: Free
 ModelImporter:
@@ -147,9 +147,9 @@ ModelImporter:
     400138: VisualSceneNode9_end 1
     4300000: VisualSceneNode25
     7400000: Armature|Block.001
-    7400002: Armature|Block
+    7400002: Block
     7400004: Armature|Block.002
-    7400006: Armature|Punch
+    7400006: Punch
     7400008: Armature|Untitled
     7400010: Armature|VisualSceneNode25Action
     7400012: Armature.001|Block.001
@@ -168,6 +168,7 @@ ModelImporter:
     7400038: Lamp|VisualSceneNode25Action
     7400040: Sun|VisualSceneNode25Action
     9500000: //RootNode
+    11100000: //RootNode
     13700000: VisualSceneNode25
   materials:
     importMaterials: 1
@@ -186,7 +187,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Armature|Block
+      name: Block
       takeName: Armature|Block
       firstFrame: 0
       lastFrame: 14
@@ -395,7 +396,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Armature|Punch
+      name: Punch
       takeName: Armature|Punch
       firstFrame: 0
       lastFrame: 18
@@ -640,7 +641,7 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
