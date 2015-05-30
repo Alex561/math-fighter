@@ -452,7 +452,7 @@ Prefab:
     - {fileID: 11100000, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
   m_IsPrefabParent: 0
---- !u!1 &944456659
+--- !u!1 &944456659 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100004, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
   m_PrefabInternal: {fileID: 869606431}
@@ -610,7 +610,8 @@ Prefab:
       propertyPath: m_AABB.m_Extent.z
       value: 1.45212936
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 11100000, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
   m_IsPrefabParent: 0
 --- !u!1 &1387163794
@@ -932,7 +933,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
---- !u!1 &1664603446
+--- !u!1 &1664603446 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100004, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
   m_PrefabInternal: {fileID: 1026731389}
@@ -949,25 +950,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pg: {fileID: 1510803036}
   hp2: {fileID: 288149926}
-  a: {fileID: 7400006, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
-  b: {fileID: 7400002, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
-  anim: {fileID: 0}
---- !u!111 &1664603450
-Animation:
+--- !u!95 &1664603449
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1664603446}
   m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400006, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
-  m_Animations:
-  - {fileID: 7400006, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
-  - {fileID: 7400002, guid: 9266df48b6eca214aae8c597f0ee84b1, type: 3}
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a4f7df7f2f1f5f243ade454f0d7b67b9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1916395057
 GameObject:
   m_ObjectHideFlags: 0
