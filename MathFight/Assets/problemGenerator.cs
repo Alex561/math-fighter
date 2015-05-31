@@ -6,14 +6,15 @@ public class problemGenerator : MonoBehaviour {
 	public Text problemText;
 	public Text turnText;
 	public Text timeText;
+	public Text answerC1;
+	public Text answerC2;
 	public Text Ap1;
 	public Text Ap2;
 	public List<string> unitCircle;
-	bool correct = false;
 	public int ap1 = 3;
 	public int ap2= 3;
-	bool p1Turn = true;
-	string question;
+	public bool p1Turn = true;
+	public string question;
 	string answer1 = "p1";
 	string answer2 = "p2";
 	float countdown = 12.0f;
@@ -21,6 +22,14 @@ public class problemGenerator : MonoBehaviour {
 	void Start () {
 
 		problemText.text = "placeholder";
+		answerC1.text = "Z: 1/2 \n" +
+					     "X: sqrt(3)/2 \n" +
+						 "C:0 \n" +
+						 "V:1";
+		answerC2.text = "B: 1/2 \n" +
+			"N: sqrt(3)/2 \n" +
+				"M:0 \n" +
+				",:1";
 		createUnitCircle ();
 		question = changeProblem ();
 		turnText.text = "player 1's turn";
@@ -33,8 +42,9 @@ public class problemGenerator : MonoBehaviour {
 		unitCircle.Add ("What is cos60°?");
 		unitCircle.Add ("What is cos90°?");
 	}
-	string changeProblem(){
+	public string changeProblem(){
 		int n = Random.Range (0, unitCircle.Count);
+		Debug.Log ("I was called");
 		problemText.text = unitCircle[n];
 		string q = (n.ToString() + "U");
 		return q;
@@ -84,12 +94,12 @@ public class problemGenerator : MonoBehaviour {
 		}
 	}
 	
-	void OnGUI(){
-		answer1 = GUI.TextField(new Rect(190,600,200,20),answer1,25);
-		answer2 = GUI.TextField(new Rect(1000,600,200,20),answer2,25);
-	}
+//	void OnGUI(){
+//		answer1 = GUI.TextField(new Rect(190,600,200,20),answer1,25);
+//		answer2 = GUI.TextField(new Rect(1000,600,200,20),answer2,25);
+//	}
 
-	void flipTurn(){
+	public void flipTurn(){
 		p1Turn = ! p1Turn;
 		if (p1Turn == true) {
 			turnText.text = "player 1's turn";
