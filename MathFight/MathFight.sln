@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{23E83884-54A0-C18F-A97A-9C07DF301A16}") = "MathFight", "Assembly-CSharp.csproj", "{1565BB23-AB9D-5469-65A5-6683BEC1354C}"
 EndProject
+Project("{23E83884-54A0-C18F-A97A-9C07DF301A16}") = "MathFight", "Assembly-CSharp-Editor.csproj", "{E3E21212-3600-E115-4B64-D4DBB3A0B5A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,15 @@ Global
 		{1565BB23-AB9D-5469-65A5-6683BEC1354C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1565BB23-AB9D-5469-65A5-6683BEC1354C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1565BB23-AB9D-5469-65A5-6683BEC1354C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E21212-3600-E115-4B64-D4DBB3A0B5A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E21212-3600-E115-4B64-D4DBB3A0B5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E21212-3600-E115-4B64-D4DBB3A0B5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E21212-3600-E115-4B64-D4DBB3A0B5A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																															GlobalSection(MonoDevelopProperties) = preSolution
+																																																			GlobalSection(MonoDevelopProperties) = preSolution
 =======
 																																				GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> origin/master
