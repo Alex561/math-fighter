@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\batmananimation.cs" />
      <Compile Include="Assets\fightercontrols.cs" />
      <Compile Include="Assets\hp.cs" />
      <Compile Include="Assets\lessonremover.cs" />

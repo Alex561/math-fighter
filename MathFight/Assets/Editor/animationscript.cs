@@ -42,7 +42,7 @@ public class animationscript : EditorWindow {
 		idleState.motion = idleAnim;
 
 		BlendTree blendTree;
-		AnimatorState moveState = controller.CreateBlendTreeInController ("Move", out blendTree);
+		AnimatorState moveState = controller.CreateBlendTreeInController ("punch", out blendTree);
 
 		blendTree.blendType = BlendTreeType.Simple1D;
 		blendTree.blendParameter = "Speed";
