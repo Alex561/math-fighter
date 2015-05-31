@@ -22,10 +22,10 @@ public class hp : MonoBehaviour {
 		// Update is called once per frame
 		void Update () {
 			
-			if ( health== 2) {
+			if ( health== 4) {
 				spriteRendererH.sprite= twoHp;//change the sprite to 2 hp
 			}
-			else if (health == 1) {
+			else if (health == 2) {
 				spriteRendererH.sprite= oneHp; // chnage the sprite to 1 hp
 			}
 			else if (health == 0) {
