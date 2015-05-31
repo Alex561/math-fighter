@@ -14,11 +14,11 @@ public class batmananimation : MonoBehaviour {
 	{
 		AnimatorStateInfo stateinfo = anim.GetCurrentAnimatorStateInfo (0);
 		if (Input.GetKeyDown (KeyCode.W)) {
-			anim.SetBool("standing",false);
+			anim.SetTrigger("Punch");
 		}
-		else
-		   {
-			anim.SetBool("standing",true);
+		else if (Input.GetKeyDown (KeyCode.S)) {
+			anim.SetTrigger("Block");
 		}
+	
 	}
 }
