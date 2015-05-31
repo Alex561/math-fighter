@@ -72,6 +72,8 @@ public class p2Controller : MonoBehaviour {
 			pg.question = pg.changeProblem();
 			pg.flipTurn ();
 		}
+		if (hp1.health == 0)
+			Application.LoadLevel ("SteveWins");
 
 	}
 }

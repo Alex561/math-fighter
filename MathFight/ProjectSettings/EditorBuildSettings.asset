@@ -9,3 +9,5 @@ EditorBuildSettings:
     path: Assets/Fight.unity
   - enabled: 1
     path: Assets/BatmanWins.unity
+  - enabled: 1
+    path: Assets/SteveWins.unity
