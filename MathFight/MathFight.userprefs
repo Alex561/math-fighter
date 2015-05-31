@@ -1,13 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\p2Controller.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\problemGenerator.cs">
     <Files>
+      <File FileName="Assets\p1Controller.cs" Line="27" Column="19" />
       <File FileName="Assets\batmananimation.cs" Line="1" Column="1" />
       <File FileName="Assets\fightercontrols.cs" Line="1" Column="1" />
-      <File FileName="Assets\p1Controller.cs" Line="77" Column="3" />
-      <File FileName="Assets\problemGenerator.cs" Line="1" Column="1" />
+      <File FileName="Assets\problemGenerator.cs" Line="35" Column="4" />
       <File FileName="Assets\hp.cs" Line="1" Column="1" />
-      <File FileName="Assets\p2Controller.cs" Line="80" Column="1" />
+      <File FileName="Assets\p2Controller.cs" Line="55" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

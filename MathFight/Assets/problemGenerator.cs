@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using System.Collections.Generic;
 public class problemGenerator : MonoBehaviour {
 	public Text problemText;
-	public Text turnText;
+	//public Text turnText;
 	public Text timeText;
 	public Text answerC1;
 	public Text answerC2;
@@ -21,7 +21,7 @@ public class problemGenerator : MonoBehaviour {
 
 	void Start () {
 
-		problemText.text = "placeholder";
+		//problemText.text = "placeholder";
 		answerC1.text = "Z: 1/2 \n" +
 					     "X: sqrt(3)/2 \n" +
 						 "C:0 \n" +
@@ -32,7 +32,7 @@ public class problemGenerator : MonoBehaviour {
 				",:1";
 		createUnitCircle ();
 		question = changeProblem ();
-		turnText.text = "player 1's turn";
+	//	turnText.text = "player 1's turn";
 	
 	}
 	void createUnitCircle()	{
@@ -49,50 +49,50 @@ public class problemGenerator : MonoBehaviour {
 		string q = (n.ToString() + "U");
 		return q;
 	}
-	int checkSolution(string a,int ap){
-		Debug.Log ("going to checker to check: " + a);
-		switch (question) {
-		case "0U":
-			if (a =="1/2"){
-				Debug.Log("sin 30 is 1/2!!!!!!!!");
-				return ap+=1;
-			}
-			else
-				return ap-=1;
-		case "1U":
-			if (a == "s3/2"){
-				Debug.Log("cos 30 is s3/2!!!!!!!!");
-				return ap+=1;
-			}
-			else 
-				return ap -=1;
-		case "2U":
-			if (a == "1"){
-				Debug.Log("tan is 45!!!!!!!!");
-				return ap+=1;
-			}
-			else 
-				return ap -=1;
-		case "3U":
-			if (a == "1/2")
-			{
-				Debug.Log("cos 60 is 1/2!!!!!!!!");
-				return ap+=1;
-			}
-			else 
-				return ap -=1;
-		case "4U":
-			if (a == "0")
-			{
-				Debug.Log("cos 90 is 0!!!!!!!!");
-				return ap+=1;
-			}
-			else 
-				return ap -=1;
-		default:
-			return ap;
-		}
-	}
+//	int checkSolution(string a,int ap){
+//		Debug.Log ("going to checker to check: " + a);
+//		switch (question) {
+//		case "0U":
+//			if (a =="1/2"){
+//				Debug.Log("sin 30 is 1/2!!!!!!!!");
+//				return ap+=1;
+//			}
+//			else
+//				return ap-=1;
+//		case "1U":
+//			if (a == "s3/2"){
+//				Debug.Log("cos 30 is s3/2!!!!!!!!");
+//				return ap+=1;
+//			}
+//			else 
+//				return ap -=1;
+//		case "2U":
+//			if (a == "1"){
+//				Debug.Log("tan is 45!!!!!!!!");
+//				return ap+=1;
+//			}
+//			else 
+//				return ap -=1;
+//		case "3U":
+//			if (a == "1/2")
+//			{
+//				Debug.Log("cos 60 is 1/2!!!!!!!!");
+//				return ap+=1;
+//			}
+//			else 
+//				return ap -=1;
+//		case "4U":
+//			if (a == "0")
+//			{
+//				Debug.Log("cos 90 is 0!!!!!!!!");
+//				return ap+=1;
+//			}
+//			else 
+//				return ap -=1;
+//		default:
+//			return ap;
+//		}
+//	}
 	
 //	void OnGUI(){
 //		answer1 = GUI.TextField(new Rect(190,600,200,20),answer1,25);
@@ -101,12 +101,12 @@ public class problemGenerator : MonoBehaviour {
 
 	public void flipTurn(){
 		p1Turn = ! p1Turn;
-		if (p1Turn == true) {
-			turnText.text = "player 1's turn";
-		}
-		if (p1Turn == false) {
-			turnText.text = "player 2's turn";
-		}
+//		if (p1Turn == true) {
+//			turnText.text = "player 1's turn";
+//		}
+//		if (p1Turn == false) {
+//			turnText.text = "player 2's turn";
+//		}
 		countdown = 12f;
 	}
 	void apManager()
@@ -127,21 +127,21 @@ public class problemGenerator : MonoBehaviour {
 		if (countdown <= 0) {
 			flipTurn();
 		}
-		//player 1 enters answer
-		if (Input.GetKeyDown (KeyCode.Q) && p1Turn) {
-			Debug.Log("pre solution ap" + ap1.ToString());
-			ap1 = checkSolution(answer1,ap1);//check if right
-			Debug.Log("post solution ap" + ap1.ToString());
-			question = changeProblem ();//make a new question
-			flipTurn();
-		}
-		//player 2 eneters answer
-		if (Input.GetKeyDown (KeyCode.P)&& !p1Turn) {
-			ap2 = checkSolution(answer2,ap2);
-			question = changeProblem ();
-			flipTurn ();
+//		//player 1 enters answer
+//		if (Input.GetKeyDown (KeyCode.Q) && p1Turn) {
+//			Debug.Log("pre solution ap" + ap1.ToString());
+//			ap1 = checkSolution(answer1,ap1);//check if right
+//			Debug.Log("post solution ap" + ap1.ToString());
+//			question = changeProblem ();//make a new question
+//			flipTurn();
+//		}
+//		//player 2 eneters answer
+//		if (Input.GetKeyDown (KeyCode.P)&& !p1Turn) {
+//			ap2 = checkSolution(answer2,ap2);
+//			question = changeProblem ();
+//			flipTurn ();
 
-		}
+		//}
 		apManager();
 	}
 }

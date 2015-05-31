@@ -30,7 +30,7 @@ public class p1Controller : MonoBehaviour {
 			hp2.health -=1;
 		
 		}
-		if (Input.GetKeyDown(KeyCode.Z)&& pg.p1Turn){
+		if (Input.GetKeyDown(KeyCode.Z)){
 			if(pg.question== ("0U") || pg.question == ("3U")){
 				pg.ap1+=1;
 				source.PlayOneShot(correctSound,.5f);}
@@ -41,10 +41,10 @@ public class p1Controller : MonoBehaviour {
 			pg.question = pg.changeProblem();
 			pg.flipTurn ();
 		}
-		if (Input.GetKeyDown(KeyCode.C)&& pg.p1Turn){
+		if (Input.GetKeyDown(KeyCode.C)){
 			if(pg.question== ("4U") ){
 				pg.ap1+=1;
-			source.PlayOneShot(correctSound,.5f);}
+				source.PlayOneShot(correctSound,.5f);}
 			else{
 				pg.ap1-=1;
 				source.PlayOneShot(wrongSound,.5f);}
@@ -52,7 +52,7 @@ public class p1Controller : MonoBehaviour {
 			pg.question = pg.changeProblem();
 			pg.flipTurn ();
 		}
-		if (Input.GetKeyDown(KeyCode.X)&& pg.p1Turn){
+		if (Input.GetKeyDown(KeyCode.X)){
 			if(pg.question== ("1U")){
 				pg.ap1+=1;
 			source.PlayOneShot(correctSound,.5f);}
@@ -63,13 +63,13 @@ public class p1Controller : MonoBehaviour {
 			pg.question = pg.changeProblem();
 			pg.flipTurn ();
 		}
-		if (Input.GetKeyDown(KeyCode.V)&& pg.p1Turn){
+		if (Input.GetKeyDown(KeyCode.V)){
 			if(pg.question== ("2U") ){
 				pg.ap1+=1;
-			source.PlayOneShot(wrongSound,.5f);}
+				source.PlayOneShot(correctSound,.5f);}
 			else{
 				pg.ap1-=1;
-				source.PlayOneShot(correctSound,.5f);}
+				source.PlayOneShot(wrongSound,.5f);}
 			Debug.Log("Changing Problem");
 			pg.question = pg.changeProblem();
 			pg.flipTurn ();

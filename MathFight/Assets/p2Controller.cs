@@ -40,7 +40,7 @@ public class p2Controller : MonoBehaviour {
 			pg.flipTurn ();
 		}
 		if (Input.GetKeyDown(KeyCode.N)){
-			if(pg.question== ("4U") ){
+			if(pg.question== ("1U") ){
 				pg.ap2+=1;
 			source.PlayOneShot(correctSound1,.5f);}
 			else{
@@ -51,7 +51,7 @@ public class p2Controller : MonoBehaviour {
 			pg.flipTurn ();
 		}
 		if (Input.GetKeyDown(KeyCode.M)){
-			if(pg.question== ("1U")){
+			if(pg.question== ("4U")){
 				pg.ap2+=1;
 				source.PlayOneShot(correctSound1,.5f);}
 			else{
