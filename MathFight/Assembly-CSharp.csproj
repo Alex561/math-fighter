@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Particle.cs" />
      <Compile Include="Assets\Scripts\ParticleS.cs" />
+     <Compile Include="Assets\Scripts\Sangbag_collision.cs" />
      <Compile Include="Assets\Scripts\UIManagerScript.cs" />
      <Compile Include="Assets\Scripts\batmananimation.cs" />
      <Compile Include="Assets\Scripts\hp.cs" />

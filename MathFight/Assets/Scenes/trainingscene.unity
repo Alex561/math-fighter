@@ -164,18 +164,6 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 100004, guid: c3e7157be0d6f7c4f81efdc689c9fd01, type: 3}
   m_PrefabInternal: {fileID: 1139384346}
---- !u!65 &107539107
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 107539104}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &107539108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,6 +175,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e594f767285e1924c9c9b327d8995cb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &107539109
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 107539104}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &459320232
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,10 +305,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 254acb7ae92689b438de8319b4491aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flip: 0
-  name: n/a
-  input_count: 0
-  output_count: 0
 --- !u!102 &988861794
 TextMesh:
   serializedVersion: 3
@@ -459,6 +458,22 @@ Prefab:
     - target: {fileID: 13700000, guid: c3e7157be0d6f7c4f81efdc689c9fd01, type: 3}
       propertyPath: m_AABB.m_Extent.z
       value: .020726651
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: c3e7157be0d6f7c4f81efdc689c9fd01, type: 3}
+      propertyPath: m_Name
+      value: batman
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: c3e7157be0d6f7c4f81efdc689c9fd01, type: 3}
+      propertyPath: m_TagString
+      value: Batman
+      objectReference: {fileID: 0}
+    - target: {fileID: 100102, guid: c3e7157be0d6f7c4f81efdc689c9fd01, type: 3}
+      propertyPath: m_TagString
+      value: Batman
+      objectReference: {fileID: 0}
+    - target: {fileID: 100022, guid: c3e7157be0d6f7c4f81efdc689c9fd01, type: 3}
+      propertyPath: m_TagString
+      value: Batman
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c3e7157be0d6f7c4f81efdc689c9fd01, type: 3}
@@ -723,11 +738,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 1916395061}
   - 33: {fileID: 1916395060}
-  - 64: {fileID: 1916395059}
   - 23: {fileID: 1916395058}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Batman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -756,18 +770,6 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!64 &1916395059
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1916395057}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &1916395060
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -891,23 +893,19 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.92740154, y: 2.93258667, z: 1.28959465}
-  m_Center: {x: 1.78931046, y: -.108314514, z: 1.38770294}
+  m_Size: {x: 2.92740154, y: 7.68726969, z: 2.57161283}
+  m_Center: {x: 1.78931057, y: 3.5032897, z: 1.28438449}
 --- !u!114 &2091233375
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2091233372}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 254acb7ae92689b438de8319b4491aa1, type: 3}
+  m_Script: {fileID: 11500000, guid: e260c9d6315312340bdc3bca0ecd03ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flip: 0
-  name: n/a
-  input_count: 0
-  output_count: 0
 --- !u!54 &2091233376
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -919,7 +917,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0

@@ -7,6 +7,7 @@ TagManager:
   - problem1
   - problem2
   - text_on_bag
+  - Batman
   layers:
   - Default
   - TransparentFX
