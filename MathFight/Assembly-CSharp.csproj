@@ -46,15 +46,16 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Particle.cs" />
-     <Compile Include="Assets\ParticleS.cs" />
+     <Compile Include="Assets\Scripts\Particle.cs" />
+     <Compile Include="Assets\Scripts\ParticleS.cs" />
+     <Compile Include="Assets\Scripts\UIManagerScript.cs" />
+     <Compile Include="Assets\Scripts\hp.cs" />
+     <Compile Include="Assets\Scripts\lessonremover.cs" />
+     <Compile Include="Assets\Scripts\p1Controller.cs" />
+     <Compile Include="Assets\Scripts\p2Controller.cs" />
+     <Compile Include="Assets\Scripts\problemGenerator.cs" />
      <Compile Include="Assets\batmananimation.cs" />
      <Compile Include="Assets\fightercontrols.cs" />
-     <Compile Include="Assets\hp.cs" />
-     <Compile Include="Assets\lessonremover.cs" />
-     <Compile Include="Assets\p1Controller.cs" />
-     <Compile Include="Assets\p2Controller.cs" />
-     <Compile Include="Assets\problemGenerator.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Tina/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
