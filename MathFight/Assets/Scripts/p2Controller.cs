@@ -40,7 +40,7 @@ public class p2Controller : MonoBehaviour {
 			pg.flipTurn ();
 		}
 		if (Input.GetKeyDown(KeyCode.N)){
-			if(pg.question== ("1U") ){
+			if(pg.question== ("1U")|| pg.question == ("5U") ){
 				pg.ap2+=1;
 			source.PlayOneShot(correctSound1,.5f);}
 			else{
@@ -51,7 +51,7 @@ public class p2Controller : MonoBehaviour {
 			pg.flipTurn ();
 		}
 		if (Input.GetKeyDown(KeyCode.M)){
-			if(pg.question== ("4U")){
+			if(pg.question== ("4U")|| pg.question == ("8U")){
 				pg.ap2+=1;
 				source.PlayOneShot(correctSound1,.5f);}
 			else{
@@ -62,7 +62,7 @@ public class p2Controller : MonoBehaviour {
 			pg.flipTurn ();
 		}
 		if (Input.GetKeyDown(KeyCode.Comma)){
-			if(pg.question== ("2U") ){
+			if(pg.question== ("2U")|| pg.question== ("6U")|| pg.question == ("7U") ){
 				pg.ap2+=1;
 				source.PlayOneShot(correctSound1,.5f);}
 			else{

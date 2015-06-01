@@ -9,6 +9,7 @@ public class p1Controller : MonoBehaviour {
 	public AudioClip wrongSound;
 	public AudioClip punch;
 	private AudioSource source;
+	public Animator anim;
 
 	// Use this for initialization
 	void Start () {
@@ -25,10 +26,18 @@ public class p1Controller : MonoBehaviour {
 			
 			pg.ap1 -=1;
 			Debug.Log("w");
-			//put punch animation
+			anim.SetTrigger("Punch");
 			source.PlayOneShot(punch,5f);
 			hp2.health -=1;
 		
+		}
+
+		if (Input.GetKeyDown (KeyCode.S)&& pg.ap1!=0)
+		{
+			
+			pg.ap1 -=1;
+			anim.SetTrigger("Block");
+			
 		}
 		if (Input.GetKeyDown(KeyCode.Z)){
 			if(pg.question== ("0U") || pg.question == ("3U")){
@@ -42,7 +51,7 @@ public class p1Controller : MonoBehaviour {
 			pg.flipTurn ();
 		}
 		if (Input.GetKeyDown(KeyCode.C)){
-			if(pg.question== ("4U") ){
+			if(pg.question== ("4U") || pg.question == ("8U")){
 				pg.ap1+=1;
 				source.PlayOneShot(correctSound,.5f);}
 			else{
@@ -53,7 +62,7 @@ public class p1Controller : MonoBehaviour {
 			pg.flipTurn ();
 		}
 		if (Input.GetKeyDown(KeyCode.X)){
-			if(pg.question== ("1U")){
+			if(pg.question== ("1U")|| pg.question == ("5U")){
 				pg.ap1+=1;
 			source.PlayOneShot(correctSound,.5f);}
 			else{
@@ -64,7 +73,7 @@ public class p1Controller : MonoBehaviour {
 			pg.flipTurn ();
 		}
 		if (Input.GetKeyDown(KeyCode.V)){
-			if(pg.question== ("2U") ){
+			if(pg.question== ("2U")||pg.question== ("6U")|| pg.question == ("7U") ){
 				pg.ap1+=1;
 				source.PlayOneShot(correctSound,.5f);}
 			else{

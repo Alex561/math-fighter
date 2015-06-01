@@ -41,6 +41,10 @@ public class problemGenerator : MonoBehaviour {
 		unitCircle.Add ("What is tan45°?");
 		unitCircle.Add ("What is cos60°?");
 		unitCircle.Add ("What is cos90°?");
+		unitCircle.Add ("What is sin60°?");
+		unitCircle.Add ("What is sin90°?");
+		unitCircle.Add ("What is cos180°?");
+		unitCircle.Add ("What is sin180°?");
 	}
 	public string changeProblem(){
 		int n = Random.Range (0, unitCircle.Count);
