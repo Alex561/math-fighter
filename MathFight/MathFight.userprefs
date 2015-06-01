@@ -1,12 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\batmananimation.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\..\..\Tina\Unity Project\Roll_a_Ball-2015-04-04\Roll_a_Ball\Assets\Scripts\Player_Controller.cs">
     <Files>
-      <File FileName="Assets\Scripts\Steveanimator.cs" Line="20" Column="4" />
-      <File FileName="Assets\Scripts\Particle.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Sangbag_collision.cs" Line="1" Column="1" />
       <File FileName="..\..\..\..\..\..\Tina\Unity Project\Roll_a_Ball-2015-04-04\Roll_a_Ball\Assets\Scripts\Player_Controller.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\batmananimation.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

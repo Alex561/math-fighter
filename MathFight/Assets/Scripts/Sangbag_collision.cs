@@ -13,7 +13,7 @@ public class Sangbag_collision : MonoBehaviour {
 		AnimatorStateInfo stateinfo = anim_sand.GetCurrentAnimatorStateInfo (0);
 	}
 
-	 void OnTriggerEnter(Collider other) {
+	 void OnTriggerEnter(Collider) {
 	 if (gameObject.tag == "Batman"){
 		anim_sand.SetTrigger("Shake");
 			Debug.Log ("bam");
