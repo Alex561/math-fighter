@@ -14,57 +14,34 @@ public class lessonremover : MonoBehaviour {
 	void Start () {
 
 	}
-	//void OnGUI()
-	//{
-		//name = GUI.TextField (new Rect (10, 10, 200, 200), name, 25);
-	//}
-	// Update is called once per frame
-	void OnCollisionEnter (Collision col)
+	void OnGUI()
 	{
-		if(input_count==0)
-		{
-			GetComponent<TextMesh>().text = "what is the angle for tan 45?";
-		}
-		
-		if(input_count==1)
-		{
-			
-			GetComponent<TextMesh>().text = "what is the angle for cos 60?";
-		}
-		//GetComponent<Collider>().attachedRigidbody.useGravity = true;
-		//GetComponent<Collider>().attachedRigidbody.isKinematic = false;
-		if(input_count==2)
-		{
-			GetComponent<TextMesh>().text = "what is the angle for sin 60?";
-		}
-		input_count++;
-
+		name = GUI.TextField (new Rect (10, 10, 200, 200), name, 25);
 	}
+	// Update is called once per frame
 	void Update () {
-		if (input_count == 3) {
-			Application.LoadLevel("Fight");
+
+		if (Input.GetKeyDown("space"))
+			{
+			 
+			if(input_count==0)
+			{
+			GetComponent<TextMesh>().text = "what is the angle for tan 45?";
+			}
+
+			if(input_count==1)
+			{
+				   
+					GetComponent<TextMesh>().text = "what is the angle for cos 60?";
+			}
+			//GetComponent<Collider>().attachedRigidbody.useGravity = true;
+			//GetComponent<Collider>().attachedRigidbody.isKinematic = false;
+			if(input_count==2)
+			{
+				GetComponent<TextMesh>().text = "what is the angle for sin 60?";
+			}
+			input_count++;
 		}
-//		if (Input.GetKeyDown("space"))
-//			{
-//			 
-//			if(input_count==0)
-//			{
-//			GetComponent<TextMesh>().text = "what is the angle for tan 45?";
-//			}
-//
-//			if(input_count==1)
-//			{
-//				   
-//					GetComponent<TextMesh>().text = "what is the angle for cos 60?";
-//			}
-//			//GetComponent<Collider>().attachedRigidbody.useGravity = true;
-//			//GetComponent<Collider>().attachedRigidbody.isKinematic = false;
-//			if(input_count==2)
-//			{
-//				GetComponent<TextMesh>().text = "what is the angle for sin 60?";
-//			}
-//			input_count++;
-	//	}
 
 		if (Input.GetKeyDown (KeyCode.G)) {
 
