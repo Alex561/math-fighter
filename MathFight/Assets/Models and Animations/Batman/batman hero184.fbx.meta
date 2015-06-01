@@ -154,6 +154,7 @@ ModelImporter:
     7400010: Armature.001|Block.002
     7400012: Armature.001|Idle
     7400014: Armature.001|Punch
+    7400016: Punched
     9500000: //RootNode
     13700000: VisualSceneNode25
   materials:
@@ -595,6 +596,215 @@ ModelImporter:
       takeName: Armature|Punch
       firstFrame: 0
       lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature.001
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode3
+          1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode3
+          1/VisualSceneNode4 1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode3
+          1/VisualSceneNode4 1/VisualSceneNode5 1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode3
+          1/VisualSceneNode4 1/VisualSceneNode5 1/VisualSceneNode6 1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode3
+          1/VisualSceneNode4 1/VisualSceneNode5 1/VisualSceneNode6 1/VisualSceneNode6_end
+          1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode3
+          1/VisualSceneNode7 1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode3
+          1/VisualSceneNode7 1/VisualSceneNode8 1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode3
+          1/VisualSceneNode7 1/VisualSceneNode8 1/VisualSceneNode9 1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode3
+          1/VisualSceneNode7 1/VisualSceneNode8 1/VisualSceneNode9 1/VisualSceneNode9_end
+          1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode10
+          1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode10
+          1/VisualSceneNode11 1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode10
+          1/VisualSceneNode11 1/VisualSceneNode12 1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode10
+          1/VisualSceneNode11 1/VisualSceneNode12 1/VisualSceneNode13 1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode10
+          1/VisualSceneNode11 1/VisualSceneNode12 1/VisualSceneNode13 1/VisualSceneNode14
+          1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode10
+          1/VisualSceneNode11 1/VisualSceneNode12 1/VisualSceneNode13 1/VisualSceneNode14
+          1/VisualSceneNode15 1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode10
+          1/VisualSceneNode11 1/VisualSceneNode12 1/VisualSceneNode13 1/VisualSceneNode14
+          1/VisualSceneNode15 1/VisualSceneNode16 1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode10
+          1/VisualSceneNode11 1/VisualSceneNode12 1/VisualSceneNode13 1/VisualSceneNode14
+          1/VisualSceneNode15 1/VisualSceneNode16 1/VisualSceneNode17 1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode10
+          1/VisualSceneNode11 1/VisualSceneNode12 1/VisualSceneNode13 1/VisualSceneNode14
+          1/VisualSceneNode15 1/VisualSceneNode16 1/VisualSceneNode17 1/VisualSceneNode17_end
+          1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode10
+          1/VisualSceneNode11 1/VisualSceneNode12 1/VisualSceneNode18 1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode10
+          1/VisualSceneNode11 1/VisualSceneNode12 1/VisualSceneNode18 1/VisualSceneNode19
+          1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode10
+          1/VisualSceneNode11 1/VisualSceneNode12 1/VisualSceneNode18 1/VisualSceneNode19
+          1/VisualSceneNode19_end 1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode10
+          1/VisualSceneNode11 1/VisualSceneNode12 1/VisualSceneNode20 1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode10
+          1/VisualSceneNode11 1/VisualSceneNode12 1/VisualSceneNode20 1/VisualSceneNode21
+          1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode10
+          1/VisualSceneNode11 1/VisualSceneNode12 1/VisualSceneNode20 1/VisualSceneNode21
+          1/VisualSceneNode22 1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode10
+          1/VisualSceneNode11 1/VisualSceneNode12 1/VisualSceneNode20 1/VisualSceneNode21
+          1/VisualSceneNode22 1/VisualSceneNode23 1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode10
+          1/VisualSceneNode11 1/VisualSceneNode12 1/VisualSceneNode20 1/VisualSceneNode21
+          1/VisualSceneNode22 1/VisualSceneNode23 1/VisualSceneNode24 1
+        weight: 1
+      - path: Armature/Armature.001/VisualSceneNode1 1/VisualSceneNode2 1/VisualSceneNode10
+          1/VisualSceneNode11 1/VisualSceneNode12 1/VisualSceneNode20 1/VisualSceneNode21
+          1/VisualSceneNode22 1/VisualSceneNode23 1/VisualSceneNode24 1/VisualSceneNode24_end
+          1
+        weight: 1
+      - path: Armature/VisualSceneNode1
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode3
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode3/VisualSceneNode4
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode3/VisualSceneNode4/VisualSceneNode5
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode3/VisualSceneNode4/VisualSceneNode5/VisualSceneNode6
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode3/VisualSceneNode4/VisualSceneNode5/VisualSceneNode6/VisualSceneNode6_end
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode3/VisualSceneNode7
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode3/VisualSceneNode7/VisualSceneNode8
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode3/VisualSceneNode7/VisualSceneNode8/VisualSceneNode9
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode3/VisualSceneNode7/VisualSceneNode8/VisualSceneNode9/VisualSceneNode9_end
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode10
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode10/VisualSceneNode11
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode10/VisualSceneNode11/VisualSceneNode12
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode10/VisualSceneNode11/VisualSceneNode12/VisualSceneNode13
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode10/VisualSceneNode11/VisualSceneNode12/VisualSceneNode13/VisualSceneNode14
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode10/VisualSceneNode11/VisualSceneNode12/VisualSceneNode13/VisualSceneNode14/VisualSceneNode15
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode10/VisualSceneNode11/VisualSceneNode12/VisualSceneNode13/VisualSceneNode14/VisualSceneNode15/VisualSceneNode16
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode10/VisualSceneNode11/VisualSceneNode12/VisualSceneNode13/VisualSceneNode14/VisualSceneNode15/VisualSceneNode16/VisualSceneNode17
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode10/VisualSceneNode11/VisualSceneNode12/VisualSceneNode13/VisualSceneNode14/VisualSceneNode15/VisualSceneNode16/VisualSceneNode17/VisualSceneNode17_end
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode10/VisualSceneNode11/VisualSceneNode12/VisualSceneNode18
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode10/VisualSceneNode11/VisualSceneNode12/VisualSceneNode18/VisualSceneNode19
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode10/VisualSceneNode11/VisualSceneNode12/VisualSceneNode18/VisualSceneNode19/VisualSceneNode19_end
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode10/VisualSceneNode11/VisualSceneNode12/VisualSceneNode20
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode10/VisualSceneNode11/VisualSceneNode12/VisualSceneNode20/VisualSceneNode21
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode10/VisualSceneNode11/VisualSceneNode12/VisualSceneNode20/VisualSceneNode21/VisualSceneNode22
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode10/VisualSceneNode11/VisualSceneNode12/VisualSceneNode20/VisualSceneNode21/VisualSceneNode22/VisualSceneNode23
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode10/VisualSceneNode11/VisualSceneNode12/VisualSceneNode20/VisualSceneNode21/VisualSceneNode22/VisualSceneNode23/VisualSceneNode24
+        weight: 1
+      - path: Armature/VisualSceneNode1/VisualSceneNode2/VisualSceneNode10/VisualSceneNode11/VisualSceneNode12/VisualSceneNode20/VisualSceneNode21/VisualSceneNode22/VisualSceneNode23/VisualSceneNode24/VisualSceneNode24_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lights
+        weight: 1
+      - path: Lights/Lamp
+        weight: 1
+      - path: Lights/Lamp.001
+        weight: 1
+      - path: Lights/Lamp.002
+        weight: 1
+      - path: Lights/Lamp.003
+        weight: 1
+      - path: Lights/Lamp.004
+        weight: 1
+      - path: Lights/Sun
+        weight: 1
+      - path: VisualSceneNode25
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Punched
+      takeName: Armature|Punched
+      firstFrame: 0
+      lastFrame: 12
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
