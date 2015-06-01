@@ -11,11 +11,11 @@ public class Sangbag_collision : MonoBehaviour {
 	void Update ()
 	{
 		AnimatorStateInfo stateinfo = anim_sand.GetCurrentAnimatorStateInfo (0);
+	}
 
-		}
-	void OnTriggerEnter(Collider other) {
-		if (gameObject.tag == "Batman"){
-			anim_sand.SetTrigger("Shake");
+	 void OnTriggerEnter(Collider) {
+	 if (gameObject.tag == "Batman"){
+		anim_sand.SetTrigger("Shake");
 			Debug.Log ("bam");
 	}
 	}

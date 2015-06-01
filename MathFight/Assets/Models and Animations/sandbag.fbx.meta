@@ -42,6 +42,31 @@ ModelImporter:
     4300000: Cylinder.001
     4300002: Cylinder
     7400000: Armature|ArmatureAction
+    7400002: Armature|Cylinder.001Action
+    7400004: Armature|CylinderAction
+    7400006: Armature|Sandbag_punched
+    7400008: Armature|Static
+    7400010: Cylinder.001|Cylinder.001Action
+    7400012: Cylinder.001|CylinderAction
+    7400014: Cylinder.001|Static
+    7400016: Cylinder|Cylinder.001Action
+    7400018: Cylinder|CylinderAction
+    7400020: Cylinder|Static
+    7400022: Point|Cylinder.001Action
+    7400024: Point|CylinderAction
+    7400026: Point|Static
+    7400028: Sun|Cylinder.001Action
+    7400030: Sun|CylinderAction
+    7400032: Sun|Static
+    7400034: Camera|Cylinder.001Action
+    7400036: Camera|CylinderAction
+    7400038: Camera|Static
+    7400040: Armature|CylinderAction.001
+    7400042: Cylinder.001|CylinderAction.001
+    7400044: Cylinder|CylinderAction.001
+    7400046: Point|CylinderAction.001
+    7400048: Sun|CylinderAction.001
+    7400050: Camera|CylinderAction.001
     9500000: //RootNode
     13700000: Cylinder
     13700002: Cylinder.001
@@ -60,7 +85,127 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Sandbag_punched
+      takeName: Armature|Sandbag_punched
+      firstFrame: 0
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_end
+        weight: 1
+      - path: Armature/Bone.001
+        weight: 1
+      - path: Armature/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone.002
+        weight: 1
+      - path: Armature/Bone.002/Bone.005
+        weight: 1
+      - path: Armature/Bone.002/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.004_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      - path: Cylinder.001
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Sun
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Static
+      takeName: Armature|Static
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_end
+        weight: 1
+      - path: Armature/Bone.001
+        weight: 1
+      - path: Armature/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone.002
+        weight: 1
+      - path: Armature/Bone.002/Bone.005
+        weight: 1
+      - path: Armature/Bone.002/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.004_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      - path: Cylinder.001
+        weight: 1
+      - path: Point
+        weight: 1
+      - path: Sun
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
