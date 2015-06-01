@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/Scenes/SteveWins.unity
   - enabled: 1
     path: Assets/Scenes/menu_scene.unity
+  - enabled: 1
+    path: Assets/Scenes/trainingscene.unity

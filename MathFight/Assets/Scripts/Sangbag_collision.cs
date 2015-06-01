@@ -12,11 +12,18 @@ public class Sangbag_collision : MonoBehaviour {
 	{
 		AnimatorStateInfo stateinfo = anim_sand.GetCurrentAnimatorStateInfo (0);
 	}
+	void OnCollisionEnter (Collision col)
+	{
+		if (col.gameObject.name == "Fist") {
+			Debug.Log("HIT!!!!!!!!");
+			anim_sand.SetTrigger("Shake");
+		}
+	}
+	//void onCollisionExit(Collider other){
+		//if (gameObject.tag == "Batman"){
+			//
+		//Debug.Log ("bam");
+		//}
+	//}
 
-	 void OnTriggerEnter(Collider) {
-	 if (gameObject.tag == "Batman"){
-		anim_sand.SetTrigger("Shake");
-			Debug.Log ("bam");
-	}
-	}
 }

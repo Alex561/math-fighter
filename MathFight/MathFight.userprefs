@@ -1,8 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\..\..\Tina\Unity Project\Roll_a_Ball-2015-04-04\Roll_a_Ball\Assets\Scripts\Player_Controller.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\UIManagerScript.cs">
     <Files>
-      <File FileName="..\..\..\..\..\..\Tina\Unity Project\Roll_a_Ball-2015-04-04\Roll_a_Ball\Assets\Scripts\Player_Controller.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Sangbag_collision.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\lessonremover.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\p2Controller.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UIManagerScript.cs" Line="31" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

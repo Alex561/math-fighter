@@ -28,7 +28,7 @@ public class UIManagerScript : MonoBehaviour {
 	}
 
 	public void StartGame(){
-		Application.LoadLevel ("Fight");
+		Application.LoadLevel ("trainingscene");
 	}
 
 	public void QuitGame(){
